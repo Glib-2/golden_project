@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Golden Services</title>
+    <link href="https://fonts.googleapis.com/css2?family=Bilbo+Swash+Caps&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap" rel="stylesheet">
+
+    <style>
+
+    header {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    }
+
+.title {
+    font-family: "Bilbo Swash Caps", cursive;
+    color: #FED136;
+    font-weight: 500;
+    margin-right: 600px;
+    margin-left: 500px;
+}
+
+.menu ul {
+    display: flex; 
+    gap: 30px;     
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #FED136;
+    font-weight: 500;
+}
+
+.second_title{
+    display: flex;
+    justify-content: center;
+     font-family: "Montserrat", sans-serif;
+     font-weight: 700;
+     font-size: 40px;
+     line-height: 75px;
+     margin-bottom: 100px;
+     margin-top: 70px;
+}
+
+.first_container{
+    display:flex;
+    max-width: 800px;
+    justify-content: center;
+    flex-direction: row;
+    margin-left: 550px;
+    gap: 100px;
+    margin-bottom: 130px;
+}
+
+.photo_1, .photo_2, .photo_3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 30%;
+    font-family: "Roboto Slab", serif;
+}
+
+
+footer{
+    background-color: #222;
+    height: 679px;
+    padding-top: 100px;
+}
+
+.third_title{
+    color: #FFF;
+    display: flex;
+    justify-content: center;
+    font-family: "Montserrat", sans-serif;
+     font-weight: 700;
+     font-size: 40px;
+     line-height: 100%;
+     margin-bottom: 150px;
+}
+
+.bluh{
+    width: 455px;
+    height: 50px;
+}
+
+.first{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.input{
+    width: 457px;
+    height: 53px;
+}
+
+.big_input{
+    width: 458px;
+    height: 212px;
+}
+
+.inputs{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 40px;
+    
+}
+
+.mini_p{
+    color: #777;
+}
+
+h3{
+    font-weight: 660;
+}
+
+button{
+    margin-left: 800px;
+    background-color: #FED136;
+    border: 0px;
+    color: #FFF;
+    width: 242px;
+    height: 68px;
+    margin-top: 50px;
+}
+
+
+</style>
+
+</head>
+<body>
+    <header>
+    <h2 class="title">Golden</h2>
+    <nav class="menu">
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Portfolio</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+    <main>
+        <h2 class="second_title">SERVICES</h2>
+
+        <div class="first_container">
+
+        <article class="photo_1">
+            <img  src="./Images/cart.webp" width="42px" height="42px">
+            <h3>E-Commerce</h3>
+            <p class="mini_p">Proin iaculis purus consequat sem cure  digni ssim. Donec porttitora entum suscipit  aenean rhoncus posuere odio in tincidunt.</p>
+            </article>
+
+        <article class="photo_2">
+            <img src="./Images/computer.webp" width="42px" height="35px">
+            <h3>Responsive Web</h3>
+            <p class="mini_p">Proin iaculis purus consequat sem cure  digni ssim. Donec porttitora entum suscipit  aenean rhoncus posuere odio in tincidunt.</p>
+            </article>
+
+        <article class="photo_3">
+            <img src="./Images/lock.webp" width="38px" height="42px">
+            <h3>Web Security</h3>
+            <p class="mini_p">Proin iaculis purus consequat sem cure  digni ssim. Donec porttitora entum suscipit  aenean rhoncus posuere odio in tincidunt.</p>
+            </article>
+
+        </div>
+    </main>
+    <footer>
+        <h2 class="third_title">CONTACT US</h2>
+
+        <div class="inputs">
+
+        <div class="first">
+        <input class="input" type="text" placeholder="YOUR NAME">
+        <input class="input" type="email" placeholder="YOUR E-MAIL">
+        <input class="input" type="text" placeholder="SUBJECT">
+        </div>
+
+        <div>
+           <input class="big_input" type="text" placeholder="YOUR MESSAGE">
+        </div>
+
+        </div>
+
+        <button type="submit">
+            Send Message
+        </button>
+
+    </footer>
+</body>
+</html>
